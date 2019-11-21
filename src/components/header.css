@@ -1,0 +1,13 @@
+.Master {
+  padding-top: 5rem;
+  padding-bottom: calc(10rem - 72px);
+  background: linear-gradient(to bottom, #0f0c29 0, #302b63, #24243e 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.imageLogo {
+  border-radius: 50%;
+}

@@ -1,7 +1,14 @@
 .App {
   text-align: center;
+  align-items: center;
 }
 
+.teste {
+  background-color: #09d3ac;
+  width: 50%;
+
+  height: 50%;
+}
 .App-logo {
   height: 40vmin;
 }
