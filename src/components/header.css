@@ -1,13 +1,30 @@
 .Master {
-  padding-top: 5rem;
-  padding-bottom: calc(10rem - 72px);
-  background: linear-gradient(to bottom, #0f0c29 0, #302b63, #24243e 100%);
+  padding-top: 16rem;
+  padding-bottom: calc(16rem - 72px);
+  background: #dff9fb, url("");
+  /* background: linear-gradient(to bottom, #0f0c29 0, #302b63, #24243e 100%); */
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
-
+.button {
+  background: #6ab04c;
+}
+.divider {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: #30336b;
+}
 .imageLogo {
   border-radius: 50%;
+}
+
+.TEstando {
+  width: 100%;
+
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }

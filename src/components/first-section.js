@@ -1,20 +1,21 @@
 
 import './first-section.css';
 import React, { Component } from 'react'
-
+import './animat.css';
 export default class FirstSection extends Component {
     render() {
         return (
-            <section class="page-section bg-primary" id="about">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8 text-center">
-                            <h2 class="text-white mt-0">We've got what you need!</h2>
-                            <hr class="divider light my-4" />>
-                            <p class="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up and runningo time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
-                            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+            <section className="page-section bg-primary animated fadeIn" id="about">
+                <div className="container">
+                    <div className="row justify-content-center">
+                        <div className="col-lg-8 text-center">
+                            <h2 className="text-white mt-0">TEste</h2>
+                            <hr className="divider light my-4" />
+                            <p className="text-black-50 mb-4">Escrever sobre qué eu sou</p>
+                            <a className="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
                         </div>
                     </div>
+
                 </div>
             </section>
         )
