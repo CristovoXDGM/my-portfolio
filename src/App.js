@@ -13,7 +13,7 @@ function App() {
         <NavBarComponent></NavBarComponent>
         <HeaderComponent></HeaderComponent>
 
-        <FirstSection></FirstSection>
+        <FirstSection id="about" name="about"></FirstSection>
 
       </body>
 

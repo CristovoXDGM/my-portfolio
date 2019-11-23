@@ -1,7 +1,7 @@
 .Master {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: #dff9fb, url("");
+  background: linear-gradient(to bottom, #dff9fb 0, #c7ecee 100%), url("");
   /* background: linear-gradient(to bottom, #0f0c29 0, #302b63, #24243e 100%); */
   background-position: center;
   background-repeat: no-repeat;

@@ -1,17 +1,11 @@
 
-import './first-section.css';
-import React, { Component } from 'react'
-import './animat.css';
-import git from "../images/git.svg";
-import * as Scroll from 'react-scroll';
+
+import React, { Component } from 'react';
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
-export default class FirstSection extends Component {
 
 
-    constructor(props) {
-        super();
-
-    }
+//Modify and work more ate this page
+export default class SeconSection extends Component {
     render() {
         return (
             <Element id={this.props.id} name={this.props.name}>
@@ -24,9 +18,9 @@ export default class FirstSection extends Component {
                                 <p className="text-black-50 mb-4">Flutter especialist, React Native, React.Js, Firebase, Mysql, Unity ,Learn a new technology...</p>
                                 <hr className="divider light my-4" />
 
-                                <div className=" justify-content-center ">
+                                <div className="row justify-content-center ">
 
-                                    <a href=" https://github.com/CristovoXDGM"><img className="col-1" src={git} /></a>
+
                                 </div>
 
                             </div>
@@ -35,7 +29,6 @@ export default class FirstSection extends Component {
                     </div>
                 </section>
             </Element>
-
-        )
+        );
     }
 }
