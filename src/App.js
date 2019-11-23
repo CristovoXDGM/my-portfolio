@@ -3,7 +3,7 @@ import './App.css';
 import NavBarComponent from './components/navbar';
 import HeaderComponent from './components/header';
 import FirstSection from './components/first-section';
-
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
 function App() {
   return (

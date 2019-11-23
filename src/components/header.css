@@ -1,6 +1,6 @@
 .Master {
-  padding-top: 16rem;
-  padding-bottom: calc(16rem - 72px);
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
   background: #dff9fb, url("");
   /* background: linear-gradient(to bottom, #0f0c29 0, #302b63, #24243e 100%); */
   background-position: center;
@@ -27,4 +27,10 @@
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+@keyframes spinner-border {
+  to {
+    transform: rotate(360deg);
+  }
 }
